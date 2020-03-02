@@ -7,17 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		383B6CF32405D1C00070564F /* MeteorMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383B6CF22405D1C00070564F /* MeteorMapViewController.swift */; };
+		383B6CF5240677880070564F /* MeteorSelectionMapPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383B6CF4240677880070564F /* MeteorSelectionMapPopup.swift */; };
+		383B6D3D2409615E0070564F /* VisbyRoundCF-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 383B6D382409615D0070564F /* VisbyRoundCF-Light.otf */; };
+		383B6D3E2409615E0070564F /* VisbyRoundCF-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 383B6D392409615E0070564F /* VisbyRoundCF-Medium.otf */; };
+		383B6D3F2409615E0070564F /* VisbyRoundCF-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 383B6D3A2409615E0070564F /* VisbyRoundCF-ExtraBold.otf */; };
+		383B6D402409615E0070564F /* VisbyRoundCF-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 383B6D3B2409615E0070564F /* VisbyRoundCF-Bold.otf */; };
+		383B6D412409615E0070564F /* VisbyRoundCF-DemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 383B6D3C2409615E0070564F /* VisbyRoundCF-DemiBold.otf */; };
+		383B6D44240D4D8B0070564F /* StartDateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383B6D43240D4D8B0070564F /* StartDateFormatter.swift */; };
+		383B6D60240D6BA30070564F /* NASATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383B6D5F240D6BA30070564F /* NASATests.swift */; };
+		383B6D67240D6BA90070564F /* StartDateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383B6D43240D4D8B0070564F /* StartDateFormatter.swift */; };
+		383B6D68240D6BAC0070564F /* MeteorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D3AD062403EF6000E01E9C /* MeteorModel.swift */; };
+		383B6D69240D6C780070564F /* MeteorMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383B6CF22405D1C00070564F /* MeteorMapViewController.swift */; };
+		383B6D6A240D6C7A0070564F /* MeteorListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D3AD0E2404005E00E01E9C /* MeteorListViewController.swift */; };
+		383B6D6B240D6C7C0070564F /* MeteorSelectionMapPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383B6CF4240677880070564F /* MeteorSelectionMapPopup.swift */; };
+		383B6D6C240D6C7F0070564F /* MeteorNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D3AD082403EF9900E01E9C /* MeteorNetworking.swift */; };
+		383B6D6E240D6DC50070564F /* meteor.json in Resources */ = {isa = PBXBuildFile; fileRef = 383B6D6D240D6DC40070564F /* meteor.json */; };
+		383B6D6F240D6FB10070564F /* MeteorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D3AD0B2403F69D00E01E9C /* MeteorCell.swift */; };
+		383B6D70240D705B0070564F /* meteor.json in Resources */ = {isa = PBXBuildFile; fileRef = 383B6D6D240D6DC40070564F /* meteor.json */; };
+		383B6D72240D77280070564F /* meteor-bad.json in Resources */ = {isa = PBXBuildFile; fileRef = 383B6D71240D77280070564F /* meteor-bad.json */; };
+		383B6D73240D77EB0070564F /* meteor-bad.json in Resources */ = {isa = PBXBuildFile; fileRef = 383B6D71240D77280070564F /* meteor-bad.json */; };
 		38D3ACE12403E52D00E01E9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D3ACE02403E52D00E01E9C /* AppDelegate.swift */; };
 		38D3ACE32403E52D00E01E9C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D3ACE22403E52D00E01E9C /* SceneDelegate.swift */; };
-		38D3ACE52403E52D00E01E9C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D3ACE42403E52D00E01E9C /* ViewController.swift */; };
+		38D3ACE52403E52D00E01E9C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D3ACE42403E52D00E01E9C /* HomeViewController.swift */; };
 		38D3ACE82403E52D00E01E9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38D3ACE62403E52D00E01E9C /* Main.storyboard */; };
 		38D3ACEA2403E52E00E01E9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38D3ACE92403E52E00E01E9C /* Assets.xcassets */; };
 		38D3ACED2403E52E00E01E9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38D3ACEB2403E52E00E01E9C /* LaunchScreen.storyboard */; };
-		38D3ACF82403E52E00E01E9C /* NASA_MeteorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D3ACF72403E52E00E01E9C /* NASA_MeteorsTests.swift */; };
+		38D3AD072403EF6000E01E9C /* MeteorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D3AD062403EF6000E01E9C /* MeteorModel.swift */; };
+		38D3AD092403EF9900E01E9C /* MeteorNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D3AD082403EF9900E01E9C /* MeteorNetworking.swift */; };
+		38D3AD0C2403F69D00E01E9C /* MeteorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D3AD0B2403F69D00E01E9C /* MeteorCell.swift */; };
+		38D3AD0F2404005E00E01E9C /* MeteorListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D3AD0E2404005E00E01E9C /* MeteorListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		38D3ACF42403E52E00E01E9C /* PBXContainerItemProxy */ = {
+		383B6D62240D6BA40070564F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 38D3ACD52403E52D00E01E9C /* Project object */;
 			proxyType = 1;
@@ -27,28 +50,42 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		38D3ACDD2403E52D00E01E9C /* NASA-Meteors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NASA-Meteors.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		383B6CF22405D1C00070564F /* MeteorMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteorMapViewController.swift; sourceTree = "<group>"; };
+		383B6CF4240677880070564F /* MeteorSelectionMapPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteorSelectionMapPopup.swift; sourceTree = "<group>"; };
+		383B6D382409615D0070564F /* VisbyRoundCF-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VisbyRoundCF-Light.otf"; sourceTree = "<group>"; };
+		383B6D392409615E0070564F /* VisbyRoundCF-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VisbyRoundCF-Medium.otf"; sourceTree = "<group>"; };
+		383B6D3A2409615E0070564F /* VisbyRoundCF-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VisbyRoundCF-ExtraBold.otf"; sourceTree = "<group>"; };
+		383B6D3B2409615E0070564F /* VisbyRoundCF-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VisbyRoundCF-Bold.otf"; sourceTree = "<group>"; };
+		383B6D3C2409615E0070564F /* VisbyRoundCF-DemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VisbyRoundCF-DemiBold.otf"; sourceTree = "<group>"; };
+		383B6D43240D4D8B0070564F /* StartDateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartDateFormatter.swift; sourceTree = "<group>"; };
+		383B6D5D240D6BA30070564F /* NASATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NASATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		383B6D5F240D6BA30070564F /* NASATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NASATests.swift; sourceTree = "<group>"; };
+		383B6D61240D6BA40070564F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		383B6D6D240D6DC40070564F /* meteor.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = meteor.json; sourceTree = "<group>"; };
+		383B6D71240D77280070564F /* meteor-bad.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "meteor-bad.json"; sourceTree = "<group>"; };
+		38D3ACDD2403E52D00E01E9C /* NASA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NASA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38D3ACE02403E52D00E01E9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38D3ACE22403E52D00E01E9C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		38D3ACE42403E52D00E01E9C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		38D3ACE42403E52D00E01E9C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		38D3ACE72403E52D00E01E9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		38D3ACE92403E52E00E01E9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38D3ACEC2403E52E00E01E9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38D3ACEE2403E52E00E01E9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		38D3ACF32403E52E00E01E9C /* NASA-MeteorsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NASA-MeteorsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		38D3ACF72403E52E00E01E9C /* NASA_MeteorsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NASA_MeteorsTests.swift; sourceTree = "<group>"; };
-		38D3ACF92403E52E00E01E9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38D3AD062403EF6000E01E9C /* MeteorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteorModel.swift; sourceTree = "<group>"; };
+		38D3AD082403EF9900E01E9C /* MeteorNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteorNetworking.swift; sourceTree = "<group>"; };
+		38D3AD0B2403F69D00E01E9C /* MeteorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteorCell.swift; sourceTree = "<group>"; };
+		38D3AD0E2404005E00E01E9C /* MeteorListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteorListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		38D3ACDA2403E52D00E01E9C /* Frameworks */ = {
+		383B6D5A240D6BA30070564F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		38D3ACF02403E52E00E01E9C /* Frameworks */ = {
+		38D3ACDA2403E52D00E01E9C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -58,11 +95,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		383B6D372409611E0070564F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				383B6D3B2409615E0070564F /* VisbyRoundCF-Bold.otf */,
+				383B6D3C2409615E0070564F /* VisbyRoundCF-DemiBold.otf */,
+				383B6D3A2409615E0070564F /* VisbyRoundCF-ExtraBold.otf */,
+				383B6D382409615D0070564F /* VisbyRoundCF-Light.otf */,
+				383B6D392409615E0070564F /* VisbyRoundCF-Medium.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		383B6D42240D4D660070564F /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				383B6D43240D4D8B0070564F /* StartDateFormatter.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		383B6D5E240D6BA30070564F /* NASATests */ = {
+			isa = PBXGroup;
+			children = (
+				383B6D71240D77280070564F /* meteor-bad.json */,
+				383B6D6D240D6DC40070564F /* meteor.json */,
+				383B6D5F240D6BA30070564F /* NASATests.swift */,
+				383B6D61240D6BA40070564F /* Info.plist */,
+			);
+			path = NASATests;
+			sourceTree = "<group>";
+		};
 		38D3ACD42403E52D00E01E9C = {
 			isa = PBXGroup;
 			children = (
 				38D3ACDF2403E52D00E01E9C /* NASA-Meteors */,
-				38D3ACF62403E52E00E01E9C /* NASA-MeteorsTests */,
+				383B6D372409611E0070564F /* Fonts */,
+				383B6D5E240D6BA30070564F /* NASATests */,
 				38D3ACDE2403E52D00E01E9C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,8 +139,8 @@
 		38D3ACDE2403E52D00E01E9C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				38D3ACDD2403E52D00E01E9C /* NASA-Meteors.app */,
-				38D3ACF32403E52E00E01E9C /* NASA-MeteorsTests.xctest */,
+				38D3ACDD2403E52D00E01E9C /* NASA.app */,
+				383B6D5D240D6BA30070564F /* NASATests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,29 +148,85 @@
 		38D3ACDF2403E52D00E01E9C /* NASA-Meteors */ = {
 			isa = PBXGroup;
 			children = (
-				38D3ACE02403E52D00E01E9C /* AppDelegate.swift */,
-				38D3ACE22403E52D00E01E9C /* SceneDelegate.swift */,
-				38D3ACE42403E52D00E01E9C /* ViewController.swift */,
+				38D3ACEE2403E52E00E01E9C /* Info.plist */,
 				38D3ACE62403E52D00E01E9C /* Main.storyboard */,
 				38D3ACE92403E52E00E01E9C /* Assets.xcassets */,
-				38D3ACEB2403E52E00E01E9C /* LaunchScreen.storyboard */,
-				38D3ACEE2403E52E00E01E9C /* Info.plist */,
+				38D3AD052403E6AD00E01E9C /* Main */,
+				38D3AD0A2403F67300E01E9C /* CustomCells */,
+				38D3AD032403E5D700E01E9C /* Networking */,
+				38D3AD022403E5A700E01E9C /* Model */,
+				383B6D42240D4D660070564F /* Support */,
+				38D3AD042403E69800E01E9C /* ViewControllers */,
 			);
 			path = "NASA-Meteors";
 			sourceTree = "<group>";
 		};
-		38D3ACF62403E52E00E01E9C /* NASA-MeteorsTests */ = {
+		38D3AD022403E5A700E01E9C /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				38D3ACF72403E52E00E01E9C /* NASA_MeteorsTests.swift */,
-				38D3ACF92403E52E00E01E9C /* Info.plist */,
+				38D3AD062403EF6000E01E9C /* MeteorModel.swift */,
 			);
-			path = "NASA-MeteorsTests";
+			path = Model;
+			sourceTree = "<group>";
+		};
+		38D3AD032403E5D700E01E9C /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				38D3AD082403EF9900E01E9C /* MeteorNetworking.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		38D3AD042403E69800E01E9C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				38D3ACE42403E52D00E01E9C /* HomeViewController.swift */,
+				383B6CF22405D1C00070564F /* MeteorMapViewController.swift */,
+				38D3AD0E2404005E00E01E9C /* MeteorListViewController.swift */,
+				383B6CF4240677880070564F /* MeteorSelectionMapPopup.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		38D3AD052403E6AD00E01E9C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				38D3ACE02403E52D00E01E9C /* AppDelegate.swift */,
+				38D3ACE22403E52D00E01E9C /* SceneDelegate.swift */,
+				38D3ACEB2403E52E00E01E9C /* LaunchScreen.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		38D3AD0A2403F67300E01E9C /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				38D3AD0B2403F69D00E01E9C /* MeteorCell.swift */,
+			);
+			path = CustomCells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		383B6D5C240D6BA30070564F /* NASATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 383B6D64240D6BA40070564F /* Build configuration list for PBXNativeTarget "NASATests" */;
+			buildPhases = (
+				383B6D59240D6BA30070564F /* Sources */,
+				383B6D5A240D6BA30070564F /* Frameworks */,
+				383B6D5B240D6BA30070564F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				383B6D63240D6BA40070564F /* PBXTargetDependency */,
+			);
+			name = NASATests;
+			productName = NASATests;
+			productReference = 383B6D5D240D6BA30070564F /* NASATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		38D3ACDC2403E52D00E01E9C /* NASA-Meteors */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 38D3ACFC2403E52E00E01E9C /* Build configuration list for PBXNativeTarget "NASA-Meteors" */;
@@ -116,26 +241,8 @@
 			);
 			name = "NASA-Meteors";
 			productName = "NASA-Meteors";
-			productReference = 38D3ACDD2403E52D00E01E9C /* NASA-Meteors.app */;
+			productReference = 38D3ACDD2403E52D00E01E9C /* NASA.app */;
 			productType = "com.apple.product-type.application";
-		};
-		38D3ACF22403E52E00E01E9C /* NASA-MeteorsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 38D3ACFF2403E52E00E01E9C /* Build configuration list for PBXNativeTarget "NASA-MeteorsTests" */;
-			buildPhases = (
-				38D3ACEF2403E52E00E01E9C /* Sources */,
-				38D3ACF02403E52E00E01E9C /* Frameworks */,
-				38D3ACF12403E52E00E01E9C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				38D3ACF52403E52E00E01E9C /* PBXTargetDependency */,
-			);
-			name = "NASA-MeteorsTests";
-			productName = "NASA-MeteorsTests";
-			productReference = 38D3ACF32403E52E00E01E9C /* NASA-MeteorsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -147,12 +254,12 @@
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = Popdeem;
 				TargetAttributes = {
-					38D3ACDC2403E52D00E01E9C = {
-						CreatedOnToolsVersion = 11.3;
-					};
-					38D3ACF22403E52E00E01E9C = {
+					383B6D5C240D6BA30070564F = {
 						CreatedOnToolsVersion = 11.3;
 						TestTargetID = 38D3ACDC2403E52D00E01E9C;
+					};
+					38D3ACDC2403E52D00E01E9C = {
+						CreatedOnToolsVersion = 11.3;
 					};
 				};
 			};
@@ -170,57 +277,80 @@
 			projectRoot = "";
 			targets = (
 				38D3ACDC2403E52D00E01E9C /* NASA-Meteors */,
-				38D3ACF22403E52E00E01E9C /* NASA-MeteorsTests */,
+				383B6D5C240D6BA30070564F /* NASATests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		383B6D5B240D6BA30070564F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				383B6D6E240D6DC50070564F /* meteor.json in Resources */,
+				383B6D72240D77280070564F /* meteor-bad.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		38D3ACDB2403E52D00E01E9C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				383B6D402409615E0070564F /* VisbyRoundCF-Bold.otf in Resources */,
+				383B6D73240D77EB0070564F /* meteor-bad.json in Resources */,
+				383B6D70240D705B0070564F /* meteor.json in Resources */,
+				383B6D3E2409615E0070564F /* VisbyRoundCF-Medium.otf in Resources */,
+				383B6D3D2409615E0070564F /* VisbyRoundCF-Light.otf in Resources */,
+				383B6D412409615E0070564F /* VisbyRoundCF-DemiBold.otf in Resources */,
 				38D3ACED2403E52E00E01E9C /* LaunchScreen.storyboard in Resources */,
 				38D3ACEA2403E52E00E01E9C /* Assets.xcassets in Resources */,
 				38D3ACE82403E52D00E01E9C /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		38D3ACF12403E52E00E01E9C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				383B6D3F2409615E0070564F /* VisbyRoundCF-ExtraBold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		383B6D59240D6BA30070564F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				383B6D6B240D6C7C0070564F /* MeteorSelectionMapPopup.swift in Sources */,
+				383B6D60240D6BA30070564F /* NASATests.swift in Sources */,
+				383B6D6A240D6C7A0070564F /* MeteorListViewController.swift in Sources */,
+				383B6D69240D6C780070564F /* MeteorMapViewController.swift in Sources */,
+				383B6D68240D6BAC0070564F /* MeteorModel.swift in Sources */,
+				383B6D67240D6BA90070564F /* StartDateFormatter.swift in Sources */,
+				383B6D6C240D6C7F0070564F /* MeteorNetworking.swift in Sources */,
+				383B6D6F240D6FB10070564F /* MeteorCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		38D3ACD92403E52D00E01E9C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38D3ACE52403E52D00E01E9C /* ViewController.swift in Sources */,
+				38D3AD0F2404005E00E01E9C /* MeteorListViewController.swift in Sources */,
+				383B6CF32405D1C00070564F /* MeteorMapViewController.swift in Sources */,
+				38D3ACE52403E52D00E01E9C /* HomeViewController.swift in Sources */,
+				383B6CF5240677880070564F /* MeteorSelectionMapPopup.swift in Sources */,
+				38D3AD092403EF9900E01E9C /* MeteorNetworking.swift in Sources */,
+				383B6D44240D4D8B0070564F /* StartDateFormatter.swift in Sources */,
+				38D3AD072403EF6000E01E9C /* MeteorModel.swift in Sources */,
+				38D3AD0C2403F69D00E01E9C /* MeteorCell.swift in Sources */,
 				38D3ACE12403E52D00E01E9C /* AppDelegate.swift in Sources */,
 				38D3ACE32403E52D00E01E9C /* SceneDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		38D3ACEF2403E52E00E01E9C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				38D3ACF82403E52E00E01E9C /* NASA_MeteorsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		38D3ACF52403E52E00E01E9C /* PBXTargetDependency */ = {
+		383B6D63240D6BA40070564F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 38D3ACDC2403E52D00E01E9C /* NASA-Meteors */;
-			targetProxy = 38D3ACF42403E52E00E01E9C /* PBXContainerItemProxy */;
+			targetProxy = 383B6D62240D6BA40070564F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -244,6 +374,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		383B6D65240D6BA40070564F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S648X26U8J;
+				INFOPLIST_FILE = NASATests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.popdeem.NASATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NASA.app/NASA";
+			};
+			name = Debug;
+		};
+		383B6D66240D6BA40070564F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S648X26U8J;
+				INFOPLIST_FILE = NASATests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.popdeem.NASATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NASA.app/NASA";
+			};
+			name = Release;
+		};
 		38D3ACFA2403E52E00E01E9C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -365,14 +535,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S648X26U8J;
 				INFOPLIST_FILE = "NASA-Meteors/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.popdeem.NASA-Meteors";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = NASA;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -383,64 +554,30 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S648X26U8J;
 				INFOPLIST_FILE = "NASA-Meteors/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.popdeem.NASA-Meteors";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = NASA;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		38D3AD002403E52E00E01E9C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = S648X26U8J;
-				INFOPLIST_FILE = "NASA-MeteorsTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.popdeem.NASA-MeteorsTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NASA-Meteors.app/NASA-Meteors";
-			};
-			name = Debug;
-		};
-		38D3AD012403E52E00E01E9C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = S648X26U8J;
-				INFOPLIST_FILE = "NASA-MeteorsTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.popdeem.NASA-MeteorsTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NASA-Meteors.app/NASA-Meteors";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		383B6D64240D6BA40070564F /* Build configuration list for PBXNativeTarget "NASATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				383B6D65240D6BA40070564F /* Debug */,
+				383B6D66240D6BA40070564F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		38D3ACD82403E52D00E01E9C /* Build configuration list for PBXProject "NASA-Meteors" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -455,15 +592,6 @@
 			buildConfigurations = (
 				38D3ACFD2403E52E00E01E9C /* Debug */,
 				38D3ACFE2403E52E00E01E9C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		38D3ACFF2403E52E00E01E9C /* Build configuration list for PBXNativeTarget "NASA-MeteorsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				38D3AD002403E52E00E01E9C /* Debug */,
-				38D3AD012403E52E00E01E9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

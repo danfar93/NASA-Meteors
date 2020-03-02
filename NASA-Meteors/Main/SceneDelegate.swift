@@ -2,8 +2,8 @@
 //  SceneDelegate.swift
 //  NASA-Meteors
 //
-//  Created by Popdeem on 24/02/2020.
-//  Copyright © 2020 Popdeem. All rights reserved.
+//  Created by Daniel Farrell on 24/02/2020.
+//  Copyright © 2020 Daniel Farrell. All rights reserved.
 //
 
 import UIKit
