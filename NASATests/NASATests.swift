@@ -10,11 +10,6 @@ import XCTest
 
 class NASATests: XCTestCase {
     
-    
-    override class func setUp() {
-        var meteorsFromAPI = [Meteor]()
-    }
-    
     /// Tests decoding of Meteor object with good json and asserts that no error is thrown
     func testDecodingMeteorFromJsonSuccess() throws {
         
