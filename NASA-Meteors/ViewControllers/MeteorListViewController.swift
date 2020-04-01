@@ -25,6 +25,7 @@ class MeteorListViewController: UIViewController, UITableViewDelegate, UITableVi
     
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        print(meteorsFromAPI.count)
         return meteorsFromAPI.count
     }
     
